@@ -2,7 +2,7 @@
 title: Hi there! I'm Stephanie
 subtitle: Product leader, ENTJ,
 description: 
-featured_image: 
+featured_image: /images/nz.jpg
 ---
 
 ![](/images/flip.gif)
