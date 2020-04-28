@@ -1,27 +1,57 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+site: Journal Jekyll Theme
 
-# Permalinks
-permalink:        pretty
+url: 
+baseurl: 
 
-# Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              stogers.com
-baseurl:          /
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
+  projects:
+    output: true
+    permalink: /project/:slug
 
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
 
-gems: [jekyll-paginate]
-paginate: 5
-paginate_path: "page:num"
+markdown: kramdown
 
-# Custom vars
-version:          2.1.0
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
+sass:
+  style: compressed
 
-github:
-  repo:           https://github.com/poole/hyde
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 6
+paginate_path: "/blog/page:num/"
+  
