@@ -9,9 +9,6 @@
 
 	{{ site.data.settings.basic_settings.site_title }}
 
-	Journal Theme by https://jekyllthemes.io
-	Premium + free Jekyll themes for your blog or website.
-
 	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
 
@@ -20,7 +17,7 @@
 
 	<!-- Page Info -->
 	<link rel="shortcut icon" href="{{ site.data.settings.basic_settings.favicon_image | relative_url }}">
-	<title>{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}</title>
+	<title>{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}</title>
 	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.excerpt }}{% endif %}">
 
 	<!-- Twitter Card -->
