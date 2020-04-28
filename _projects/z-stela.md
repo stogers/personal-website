@@ -3,103 +3,49 @@ title: 'Shop the Look'
 subtitle: 'Connecting inspiration to action'
 date: 2018-06-30 00:00:00
 featured_image: '/images/stela.gif'
-link: 'https://newsroom.pinterest.com/en/post/new-ways-to-shop-on-pinterest-discover-retailers-of-all-sizes'
+clickthrough: 'true'
 ---
 
-![](/images/demo/demo-landscape.jpg)
+![](/images/stela.gif)
 
-## Demo content
+#### Shopping Leader
 
-This page is a demo that shows everything you can do inside portfolio and blog posts.
+I helped lead the company-wide shopping initiative to make Pinterest more actionable. Starting my work on shopping in 2018, I have been involved in almost every shopping feature that has been launched for the last two years.[^1][^2] More recently we had a huge milestone where we launched the ability to shop from every major recommendation surface on Pinterest.[^3] However, over the course of my 2.5 years contributing to shopping on Pinterest, one project stands out: Shop the Look. 
 
-We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
-
-**Obviously,** we’ve styled up *all the basic* text formatting options [available in markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-You can create lists:
-
-* Simple bulleted lists
-* Like this one
-* Are cool
-
-And:
-
-
-1. Numbered lists
-2. Like this other one
-3. Are great too
-
-You can also add blockquotes, which are shown at a larger width to help break up the layout and draw attention to key parts of your content:
-
-> “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.”
-
-The theme also supports markdown tables:
-
-| Item                 | Author        | Supports tables? | Price |
-|----------------------|---------------|------------------|-------|
-| Duet Jekyll Theme    | Jekyll Themes | Yes              | $49   |
-| Index Jekyll Theme   | Jekyll Themes | Yes              | $49   |
-| Journal Jekyll Theme | Jekyll Themes | Yes              | $49   |
-
-And footnotes[^1], which link to explanations[^2] at the bottom of the page[^3].
-
-[^1]: Beautiful modern, minimal theme design.
-[^2]: Powerful features to show off your work.
-[^3]: Maintained and supported by the theme developer.
-
-You can throw in some horizontal rules too:
-
----
-
-### Image galleries
-
-Here's a really neat custom feature we added – galleries:
-
-<div class="gallery" data-columns="3">
-	<img src="/images/demo/demo-portrait.jpg">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-square.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
-</div>
-
-Inspired by the Galleries feature from WordPress, we've made it easy to create grid layouts for your images. Just use a bit of simple HTML in your post to create a masonry grid image layout:
-
-```html
-<div class="gallery" data-columns="3">
-    <img src="/images/demo/demo-portrait.jpg">
-    <img src="/images/demo/demo-landscape.jpg">
-    <img src="/images/demo/demo-square.jpg">
-    <img src="/images/demo/demo-landscape-2.jpg">
-</div>
-```
-
-*See what we did there? Code and syntax highlighting is built-in too!*
-
-Change the number inside the 'columns' setting to create different types of gallery for all kinds of purposes. You can even click on each image to seamlessly enlarge it on the page.
-
----
-
-### Image carousels
-
-Here's another gallery with only one column, which creates a carousel slide-show instead.
-
-A nice little feature: the carousel only advances when it is in view, so your visitors won't scroll down to find it half way through your images.
+> "With Shop the Look Pins, people can find and buy products within fashion and home décor Pins, making it easy to bring inspiration to life."[^4]
 
 <div class="gallery" data-columns="1">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
+	<img src="/images/stl.jpg">
+	<img src="/images/stl2.jpg">
+	<img src="/images/stl3.jpg">
 </div>
 
-### What about videos?
 
-Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
 
-<iframe src="https://player.vimeo.com/video/19536258?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+#### Shop the Look - Manual Tagging
+We launched Shop The Look as a way to help Pinners get to the products they love faster, and for brands to put customers on a path to purchase. 
 
----
+The original product was human-curated pins that were manually tagged. The first step was a series of upfront costs to internally curate. We then built out an API to ingest tagged pins in bulk from approved third-party platform partners like curulate and shopstyle. This did not result in the scale we were looking for, so ultimately we decided to pursue a GA tagging tool, where any Pinner could tag images they own. This also aligned with the company's long-term strategy of focusing on user-generated content.[^5]
+
+#### Shop the Look - Automatic Tagging
+Ultimately, in order to scale coverage and increase the value for Pinners, we decided to automate tagging. At a high level there are 3 steps: (1) using our in-house object detection, we detect objects and their taxonomy labels within a scene image, (2) we restrict to only pins that are purchasable and within the same taxonomy label, and (3) we use an embedding model to find the nearest neighbors for recommendations. So as an example, we see a scene of a living room with multiple pieces of furniture, we detect all the bounding boxes and taxonomy labels like “couch” within that image, we then restrict all results to purchasable couches and finally find visually similar couches as recommendations.[^6]
+
+The launch of this feature increased our Shop The Look Pin coverage by 22.5x!
+
+
+#### Shop the Look - User Experience
+One of the primary motivations of increasing coverage, was low comprehension of the feature. In addition to low coverage, these new pins suffered from the "cold start" recommendation problem and were getting proportionally lower distribution. In addition to simply covering more pins, we decided to tackle this from a frontend perspective and make the feature more discoverable and easy-to-use. We experimented with highlighting the tagged products beneath the image, animating the dots, moving the content forward in the funnel (e.g. moving the products one level up into the grid, in addition to the landing page). As we increased coverage and discoverability of the feature, we saw both engagement rates and volumes increase. This result is often hard to achieve at Pinterest due to diminishing returns and trading off quality for quantity. 
+
+However, as we began to make this feature more pervasive, creators whose content was being automatically tagged with products from other brands, were starting to notice more and became unhappy. Pinterest has 3 distinct sets of users: Pinners, Creators, and Advertisers. This problem came down to trading off user satisfaction between the former two user types: Pinners and Creators. It was clear that Creators were upset, but as we dug deeper into user research, it became clear that not all the changes were positive for the Pinner either. Pinners had high expectations for dots to be exact matches and highly curated, as well as just feeling frustrated that viewing the image (the primary intent of Pinners) was becoming more difficult as we obfuscated it with dots. As a result of these learnings, we carefully balanced the business strategy, Pinner needs, and Creator satisfaction to end up with a feature that is non-obtrusive, highly discoverable, and intuitive. 
+
 
 ## Pretty cool, huh?
 
-We've packed this theme with powerful features to show off your work. Why not put them to use on your new portfolio?
+For more, find all the publications related to this feature below!
 
-<a href="https://jekyllthemes.io/theme/index-portfolio-jekyll-theme" class="button button--large">Get This Theme</a>
+[^1]: 2018 - [New ways to shop with Pinterest](https://newsroom.pinterest.com/en/post/new-ways-to-shop-with-pinterest-0)
+[^2]: 2019 - [More ways to shop your favorite brands on Pinterest](https://newsroom.pinterest.com/en/post/summer-shopping)
+[^3]: 2020 - [New ways to shop on Pinterest](https://newsroom.pinterest.com/en/post/new-ways-to-shop-on-pinterest-discover-retailers-of-all-sizes)
+[^4]: [Shop the Look Pins](https://business.pinterest.com/en-gb/shop-the-look-pins)
+[^5]: [Shop the Look - Engineering Blog](https://medium.com/pinterest-engineering/engineering-shop-the-look-on-pinterest-45bdfa7a8d03)
+[^6]: [Automating Shop the Look - Engineering Blog](https://medium.com/pinterest-engineering/automating-shop-the-look-on-pinterest-a17aeff0eae2)

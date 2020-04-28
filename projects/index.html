@@ -23,9 +23,11 @@ featured_image: /images/nz.jpg
 		{% for project in site.projects reversed %}
 
 		<div class="portfolio-item">
-
-			<a class="portfolio-item__link">  <!-- href="{{ project.url | relative_url }}">-->
-
+			{% if project.clickthrough %}
+			<a class="portfolio-item__link" href="{{ project.url | relative_url }}">
+			{% else %}
+			<a class="portfolio-item__link">
+			{% endif %}
 				<div class="portfolio-item__image" style="background-image: url({{ project.featured_image | relative_url }});"></div>
 
 				<div class="portfolio-item__content">
