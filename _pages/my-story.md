@@ -1,14 +1,13 @@
 ---
-title: Hi there! I'm Stephanie
-subtitle: Product leader, ENTJ,
+title: My Story
+subtitle: 
 description: 
-featured_image: 
+featured_image: /images/nz.jpg
 ---
 
-![](/images/flip.gif)
-
-## My Story
 I have lived in the Bay Area my entire life (Windsor → Berkeley → San Francisco → ??). To make up for the sheltered life I have lived I have overcompensated with adrenaline filled activities including skydiving, cave diving, canyoneering, paragliding, motorcycling, and as you can see above... bungee jumping. 
+
+![](/images/flip.gif)
 
 While I have literally taken the path most traveled (for a generic motivated privileged white girl), I still like to think I excel in even the mundane things like being well-adjusted. 
 
@@ -51,7 +50,7 @@ I have extensive experience speaking in front of large crowds and while I am not
 I love being active and competitively played sports since the age of 4, starting with softball, to volleyball, and more recently club ultimate frisbee on [Vampires](https://play.usaultimate.org/teams/events/Eventteam/?TeamId=fhbq3%2f9CD8Rxr%2f0e3UitJF3LMT7PQ6596QTq65rtDp0%3d). I think team sports have shaped who I am as a person, but I won't regurgitate my lame college application essay here. 
 
 #### Board Games
-Because I was never allowed to play video games, I developed a love for board games. My current favorite is a cooperative game called [Spirit Islands](https://boardgamegeek.com/boardgame/162886/spirit-island). I have been part of a D&D campaign that has lasted over two years now, roleplaying a character that slowly has bled over into my actual personality. 
+Because I was never allowed to play video games, I developed a love for board games. My current favorite is a cooperative game called [Spirit Island](https://boardgamegeek.com/boardgame/162886/spirit-island). I have been part of a D&D campaign that has lasted over two years now, roleplaying a character that slowly has bled over into my actual personality. 
 
 #### Traveling
 My first time flying in an airplane was when I was 18 years old. I have now been to over 40 countries. Favorite was Thailand and my next up is Scandinavia. 

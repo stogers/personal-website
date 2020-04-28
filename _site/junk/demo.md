@@ -1,10 +1,3 @@
----
-title: 'Welcome!'
-date: 2020-04-27 00:00:00
-featured_image: '/images/pillars.jpg'
-excerpt: Welcome to 
----
-
 ![](/images/demo/demo-landscape.jpg)
 
 ## Demo content

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 
+title: Stephanie Rogers
 description: A stunning personal website made by stogers
 featured_image: /images/nz.jpg
 ---
@@ -15,16 +15,12 @@ featured_image: /images/nz.jpg
 
 			<div class="blog-post__header">
 				<h2 class="blog-post__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-				<p class="blog-post__subtitle">{{ post.date | date_to_long_string }}</p>
+				<p class="blog-post__subtitle"> {{ post.excerpt }}</p>
 			</div>
 
-			{% if post.featured_image %}
-			<a href="{{ post.url | relative_url }}" class="blog-post__image" style="background-image: url({{ post.featured_image | relative_url }});"></a>
-			{% endif %}
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/HmKbqWRedRc?controls=0&loop=1&autoplay=1&playlist=HmKbqWRedRc" frameborder="0" allow="autoplay; loop; accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 			<div class="blog-post__content">
-				<p>{{ post.excerpt }}</p>
-				<p><a href="{{ post.url | relative_url }}" class="button">Read More</a>
 			</div>
 
 		</article>
