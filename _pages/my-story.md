@@ -5,11 +5,9 @@ description:
 featured_image: /images/nz.jpg
 ---
 
-I have lived in the Bay Area my entire life (Windsor → Berkeley → San Francisco → ??). To make up for the sheltered life I have lived I have overcompensated with adrenaline filled activities including skydiving, cave diving, canyoneering, paragliding, motorcycling, and as you can see above... bungee jumping. 
+I have lived in the Bay Area my entire life (Windsor → Berkeley → San Francisco → ??). To make up for the sheltered life I have lived I have overcompensated with adrenaline filled activities including skydiving, cave diving, canyoneering, paragliding, motorcycling, and as you can see below... bungee jumping. 
 
 ![](/images/flip.gif)
-
-While I have literally taken the path most traveled (for a generic motivated privileged white girl), I still like to think I excel in even the mundane things like being well-adjusted. 
 
 ## My Expertise
 
