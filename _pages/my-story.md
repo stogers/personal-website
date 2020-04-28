@@ -8,15 +8,17 @@ featured_image:
 ![](/images/flip.gif)
 
 ## My Story
-Thus far, I have lived in the Bay Area my entire life (Windsor → Berkeley → San Francisco → ??). I was/am a Straight-A student. While I have literally taken the path most traveled (for a generic motivated privileged white girl), I still like to think I excel in even the mundane things like being well-adjusted. 
+I have lived in the Bay Area my entire life (Windsor → Berkeley → San Francisco → ??). To make up for the sheltered life I have lived I have overcompensated with adrenaline filled activities including skydiving, cave diving, canyoneering, paragliding, motorcycling, and as you can see above... bungee jumping. 
+
+While I have literally taken the path most traveled (for a generic motivated privileged white girl), I still like to think I excel in even the mundane things like being well-adjusted. 
 
 ## My Expertise
 
-My obsessions that are not captured in my [LinkedIn](linkedin.com/in/stogers), but are what make me human.
+The obsessions that are not captured in my [LinkedIn](linkedin.com/in/stogers), but are what make me human.
 
 #### Product
 
-As an engineer and product manager I have built and led both the last 10% and the zero-to-one products. My biggest takeaway is that whether it's incremental or iterative, the most important thing is to move forward. 
+As an engineer and product manager I have built and led both the last 10% and the zero-to-one products. My biggest takeaway is that whether it's incremental or iterative, the most important thing to do is move forward. 
 
 ![](/images/skateboard.png)
 
@@ -28,7 +30,7 @@ I received my masters in computer science, with a focus in AI. I like to think t
 
 #### Education
 
-From tutoring math in high school to teaching computer science at UC, Berkeley, I have always had a passion for teaching others. I personally am obsessed with learning and personal growth, that I strive to help others achieve both in any way I can.
+From tutoring math in high school to teaching computer science at UC, Berkeley, I have always had a passion for teaching others. I personally am so obsessed with learning and personal growth, that I strive to help others achieve both in any way I can.
 * Masters Thesis on Automatic Evaluation of Coding Style [ACES](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2014/EECS-2014-77.html).
 * Leader and Mentor of Onboarding Program - Pinterest
 * Teacher for Introduction to Computer Science - UC Berkeley
@@ -43,9 +45,6 @@ I have extensive experience speaking in front of large crowds and while I am not
 * Graduation Speech, UC Berkeley CS Division
 * Validictorian Speech, High School
 
-<a href="linkedin.com/in/stogers" class="button button--large">My LinkedIn</a>
-
-
 ## My Hobbies
 
 #### Sports
@@ -55,6 +54,6 @@ I love being active and competitively played sports since the age of 4, starting
 Because I was never allowed to play video games, I developed a love for board games. My current favorite is a cooperative game called [Spirit Islands](https://boardgamegeek.com/boardgame/162886/spirit-island). I have been part of a D&D campaign that has lasted over two years now, roleplaying a character that slowly has bled over into my actual personality. 
 
 #### Traveling
-My first time flying in an airplane was when I was 18 years old. I have now been to over 40 countries. My favorite was Thailand because the scuba diving was amazing! More tropical islands please.
+My first time flying in an airplane was when I was 18 years old. I have now been to over 40 countries. Favorite was Thailand and my next up is Scandinavia. 
 
 
