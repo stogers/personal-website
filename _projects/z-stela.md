@@ -38,7 +38,7 @@ One of the primary motivations of increasing coverage, was low comprehension of 
 
 However, as we began to make this feature more pervasive, creators whose content was being automatically tagged with products from other brands, were starting to notice more and became unhappy. Pinterest has 3 distinct sets of users: Pinners, Creators, and Advertisers. This problem came down to trading off user satisfaction between the former two user types: Pinners and Creators. It was clear that Creators were upset, but as we dug deeper into user research, it became clear that not all the changes were positive for the Pinner either. Pinners had high expectations for dots to be exact matches and highly curated, as well as just feeling frustrated that viewing the image (the primary intent of Pinners) was becoming more difficult as we obfuscated it with dots. As a result of these learnings, we carefully balanced the business strategy, Pinner needs, and Creator satisfaction to end up with a feature that is non-obtrusive, highly discoverable, and intuitive. 
 
-<img src="/images/final-stl.gif">
+<img src="/images/stl-final.gif">
 
 
 ## Pretty cool, huh?
