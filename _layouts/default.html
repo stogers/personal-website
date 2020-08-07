@@ -22,12 +22,12 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}">
 	<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.excerpt }}{% endif %}">
-	<meta name="twitter:image:src" content="{{ page.featured_image | absolute_url }}">
+	<meta name="twitter:image:src" content="{{ '/images/nz.jpg' }}">
 
 	<!-- Facebook OpenGraph -->
 	<meta property="og:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}" />
 	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.excerpt }}{% endif %}" />
-	<meta property="og:image" content="{{ page.featured_image | absolute_url }}" />
+	<meta property="og:image" content="{{ '/images/nz.jpg' }}" />
 
 	{% if site.data.settings.font_settings.font_embed %}
 	<!-- Font Embed Code -->
@@ -74,7 +74,7 @@
 	
 	<div class="page">
 
-		<div class="page__content" data-page-title="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}" data-image="{{ '/images/nz.jpg' | relative_url }}">
+		<div class="page__content" data-page-title="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}" data-image="{{ '/images/nz.jpg' }}">
 
 			{{ content }}
 
