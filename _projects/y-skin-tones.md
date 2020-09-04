@@ -6,99 +6,48 @@ featured_image: '/images/skin-tone.png'
 link: 'https://newsroom.pinterest.com/en/post/introducing-more-inclusive-beauty-results'
 ---
 
-![](/images/demo/demo-landscape.jpg)
+![](/images/skin-tone.png)
 
-## Demo content
+#### Motivation
 
-This page is a demo that shows everything you can do inside portfolio and blog posts.
+> “I use social media and am heavily influenced by it. I want to feel relevant. I want to feel beautiful. However, the beauty standards portrayed by Pinterest have no people of colour. If I ever want to feel like I am a beautiful contribution, I cannot look at your app.” - Anonymous Pinner
 
-We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
-
-**Obviously,** we’ve styled up *all the basic* text formatting options [available in markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-You can create lists:
-
-* Simple bulleted lists
-* Like this one
-* Are cool
-
-And:
-
-1. Numbered lists
-2. Like this other one
-3. Are great too
-
-You can also add blockquotes, which are shown at a larger width to help break up the layout and draw attention to key parts of your content:
-
-> “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.”
-
-The theme also supports markdown tables:
-
-| Item                 | Author        | Supports tables? | Price |
-|----------------------|---------------|------------------|-------|
-| Duet Jekyll Theme    | Jekyll Themes | Yes              | $49   |
-| Index Jekyll Theme   | Jekyll Themes | Yes              | $49   |
-| Journal Jekyll Theme | Jekyll Themes | Yes              | $49   |
-
-And footnotes[^1], which link to explanations[^2] at the bottom of the page[^3].
-
-[^1]: Beautiful modern, minimal theme design.
-[^2]: Powerful features to show off your work.
-[^3]: Maintained and supported by the theme developer.
-
-You can throw in some horizontal rules too:
-
----
-
-### Image galleries
-
-Here's a really neat custom feature we added – galleries:
-
-<div class="gallery" data-columns="3">
-	<img src="/images/demo/demo-portrait.jpg">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-square.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
-</div>
-
-Inspired by the Galleries feature from WordPress, we've made it easy to create grid layouts for your images. Just use a bit of simple HTML in your post to create a masonry grid image layout:
-
-```html
-<div class="gallery" data-columns="3">
-    <img src="/images/demo/demo-portrait.jpg">
-    <img src="/images/demo/demo-landscape.jpg">
-    <img src="/images/demo/demo-square.jpg">
-    <img src="/images/demo/demo-landscape-2.jpg">
-</div>
-```
-
-*See what we did there? Code and syntax highlighting is built-in too!*
-
-Change the number inside the 'columns' setting to create different types of gallery for all kinds of purposes. You can even click on each image to seamlessly enlarge it on the page.
-
----
-
-### Image carousels
-
-Here's another gallery with only one column, which creates a carousel slide-show instead.
-
-A nice little feature: the carousel only advances when it is in view, so your visitors won't scroll down to find it half way through your images.
+More than 70% of people use Pinterest to discover and save beauty ideas they want to try. However, a common user complaint stems from a lack of diversity in our beauty results, which is easily illustrated by the search for “dreads.” 
 
 <div class="gallery" data-columns="1">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
+	<img src="/images/skin-tones-1.png">
 </div>
 
-### What about videos?
+The results are less than ideal. A user who wants to see darker-skinned women in their results needs to prepend “black women” to their text query, a process that is time-consuming, non-discoverable, and most importantly, non-inclusive. Furthermore, even after a manual change to the query, the results are often either not relevant to the skin tone specified or the original text query. 
 
-Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
+To help users better find what they want we specifically enabled users to seamlessly filter beauty results based on a user inputted selection of skin tone range.
 
-<iframe src="https://player.vimeo.com/video/19536258?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="gallery" data-columns="1">
+	<img src="/images/skin-tones-2.png">
+</div>
 
----
+#### Goals
 
-## Pretty cool, huh?
+1. Build a more inclusive search experience
+2. Help Pinners more seamlessly find relevant beauty ideas in search
 
-We've packed this theme with powerful features to show off your work. Why not put them to use on your new portfolio?
+##### Success Criteria
+* ↑ search success rate
+* ↓ number of re-queries
+* ↓ user complaints
+* [Guardrail] maintain the relevance of search results
+* [Guardrail] filter engagement and retention rates (baselined off of other filter usage)
 
-<a href="https://jekyllthemes.io/theme/index-portfolio-jekyll-theme" class="button button--large">Get This Theme</a>
+#### Results
+
+We saw amazing metrics wins with respect to our success criteria. We also saw an increase in overall search relevancy, overwhelming positive reactions from qualitative research and in-app surveys, and a huge marketing moment win for Pinterest with dozens of articles published on the feature launch. But most importantly, we allowed users to find what they wanted, as illustrated in the new search for dreads with the darker skin tone selected. 
+
+<div class="gallery" data-columns="1">
+	<img src="/images/skin-tones-3.png">
+</div>
+
+#### Learnings
+1. There is a large opportunity to improve search by offering more customized filters. This feature was extremely effective in helping users narrow and find what they wanted and only represents a small portion of facets used to refine searches. 
+2. User research early and often. We learned and iterated before we even built the feature by exposing internal employees and a handful of users to the idea and mockups. In general, it diversifies inputs to the project and can either challenge or support intuition quickly and with relatively low effort. 
+3. Motivation is crucial. I worked with a team of extremely passionate people on this project and it was by far one of the most rewarding and smooth projects I have led. While the motivation did not necessarily come from me, the takeaway here is just how crucial it is to correctly motivate and evangelize a product. 
+
