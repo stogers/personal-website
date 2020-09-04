@@ -37,7 +37,7 @@ To help users better find what they want we specifically enabled users to seamle
 We saw amazing metrics wins with respect to our success criteria. We also saw an increase in overall search relevancy, overwhelming positive reactions from qualitative research and in-app surveys, and a huge marketing moment win for Pinterest with dozens of articles published on the feature launch. But most importantly, we allowed users to find what they wanted, as illustrated in the new search for dreads with the darker skin tone selected. 
 
 <div class="gallery" data-columns="1">
-	<img src="/images/skin-tones-3.png">
+	<img src="/images/skin-tone.png">
 </div>
 
 #### Learnings
