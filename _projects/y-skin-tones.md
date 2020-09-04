@@ -6,8 +6,6 @@ featured_image: '/images/skin-tone.png'
 link: 'https://newsroom.pinterest.com/en/post/introducing-more-inclusive-beauty-results'
 ---
 
-![](/images/skin-tone.png)
-
 #### Motivation
 
 > “I use social media and am heavily influenced by it. I want to feel relevant. I want to feel beautiful. However, the beauty standards portrayed by Pinterest have no people of colour. If I ever want to feel like I am a beautiful contribution, I cannot look at your app.” - Anonymous Pinner
