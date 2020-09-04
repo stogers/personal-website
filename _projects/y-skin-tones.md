@@ -20,10 +20,6 @@ The results are less than ideal. A user who wants to see darker-skinned women in
 
 To help users better find what they want we specifically enabled users to seamlessly filter beauty results based on a user inputted selection of skin tone range.
 
-<div class="gallery" data-columns="1">
-	<img src="/images/skin-tones-2.png">
-</div>
-
 #### Goals
 
 1. Build a more inclusive search experience
