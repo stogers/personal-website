@@ -4,6 +4,7 @@ subtitle: 'More inclusive beauty searches'
 date: 2018-06-30 00:00:00
 featured_image: '/images/skin-tone.png'
 link: 'https://newsroom.pinterest.com/en/post/introducing-more-inclusive-beauty-results'
+clickthrough: 'true'
 ---
 
 #### Motivation
